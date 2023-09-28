@@ -6,12 +6,11 @@ body{
 }
 
 .content{
-    height: 2324px;
+    height: 2316px;
     width: 350px;
     background-image: url(../img/sfondo.png);
     background-position-y: -50%;
     background-position-x: 70%;
-    
     margin: 0 auto;
 }
 
@@ -19,7 +18,7 @@ body{
 
 header{
     display: inline-block;
-    height: 250px;
+    height: 238px;
     width: 320px;
     margin: 15px 15px;
     background-image: linear-gradient(360deg, rgba(3,109,136,1) 0%, rgba(0,172,215,1) 71%, rgba(0,136,170,1) 89%);
@@ -32,6 +31,8 @@ header{
     left: -27px;
     top: -6px;
 }
+
+
 
 h2{
     font-size: 15px;
@@ -51,10 +52,6 @@ h3{
     margin-top: -21px;
 }
 
-.far fa-arrow-right{
-    font-weight: 400;
-    
-}
 
 main{
     display: inline-block;
@@ -109,8 +106,6 @@ th{
     height: 50px;
     background-color: #3a6acc;
     color: white;
-    
-    
 }
 
 
@@ -132,11 +127,11 @@ tr:nth-child(odd){
 }
 
 iframe{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .novita{
-    margin: 0 auto;
+    margin: 20px auto;
     width: 290px;
     height:180px;
     background-color: #efefef;
@@ -145,7 +140,7 @@ iframe{
 .novita h1{
     padding-top: 10px;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .novita p{
@@ -157,13 +152,17 @@ iframe{
     
 }
 
+input{
+    width: 187px;
+}
+
 .email > button{ 
     color: white;
     background-color:#3a6acc;
 }
 
 .correlati h1{
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -181,7 +180,7 @@ iframe{
 }
 
 .correlati-sub p+p{
-    margin-top: -11px;
+    margin-top: -8px;
 }
 
 h4{
@@ -193,17 +192,17 @@ h4{
 
 footer{
         
-        color:white;
-        display: inline-block;
-        height: 132px;
-        width: 320px;
-        margin: 15px 15px;
-        background-image: linear-gradient(360deg, rgba(3,109,136,1) 0%, rgba(0,172,215,1) 71%, rgba(0,136,170,1) 89%);
-        filter: drop-shadow(2px 3px 1px grey);
+    color:white;
+    display: inline-block;
+    height: 132px;
+    width: 320px;
+    margin: 15px 15px;
+    background-image: linear-gradient(360deg, rgba(0,26,33,1) 0%, rgba(19,111,110,1) 74%, rgba(0,91,89,1) 97%);
+    filter: drop-shadow(2px 3px 1px grey);
     
 }
 
 footer p{
     padding: 0 15px;
-        text-align: center;
+    text-align: center;
 }
