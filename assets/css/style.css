@@ -106,12 +106,13 @@ th{
     height: 50px;
     background-color: #3a6acc;
     color: white;
+    text-align: bottom;
 }
 
 
 tr{
     height: 30px;
-    border: 1px solid white;
+    border-top: 1px solid darkgrey;
     border-spacing: 0;
 }
 
