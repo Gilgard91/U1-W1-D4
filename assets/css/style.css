@@ -1,6 +1,144 @@
 /* IMPOSTAZIONI GENERALI */
 
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+
+.content{
+    height: 1600px;
+    width: 350px;
+    background-image: url(../img/sfondo.png);
+    background-position-y: -50%;
+    background-position-x: 70%;
+    
+    margin: 0 auto;
+}
+
 /* HEADER */
+
+header{
+    display: inline-block;
+    height: 250px;
+    width: 320px;
+    margin: 15px 15px;
+    background-image: linear-gradient(360deg, rgba(3,109,136,1) 0%, rgba(0,172,215,1) 71%, rgba(0,136,170,1) 89%);
+    filter: drop-shadow(2px 3px 1px grey);
+}
+
+.logo{
+    position: relative;
+    scale: 0.5;
+    left: -27px;
+    top: -6px;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 0;
+
+}
+
+h3{
+    font-weight: 300;
+    color:grey
+}
+
+.menu{
+    margin-top: -21px;
+}
+
+.far fa-arrow-right{
+    font-weight: 400;
+    
+}
+
+main{
+    display: inline-block;
+    height: 1250px;
+    width: 320px;
+    margin: 15px 15px;
+    background-color: white;
+    filter: drop-shadow(2px 3px 1px grey);
+}
+
+/* h1{ 
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    font-size: 25px;
+} */
+
+.content-main{
+    margin: 0 auto;
+    width: 290px;
+}
+
+.content-main h1{
+    font-size: 25px;
+    
+}
+.content-main h3{
+    font-size: 13px;
+}
+
+p{
+    font-size: 13px;
+}
+
+ul{
+    font-size: 13px;
+}
+
+ol{
+    font-size: 13px;
+}
+
+table{
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+    
+}
+
+caption{
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+th{
+    height: 50px;
+    background-color: #3a6acc;
+    color: white;
+    
+}
+
+
+tr{
+    height: 30px;
+    border: 1px solid white;
+    border-spacing: 0;
+}
+
+tr:nth-child(odd){
+    background: #f2f2f2;
+}
+
+.line{
+    width: 290px;
+    height: 2px;
+    background-color: #3a6acc;
+    margin-bottom: 30px;
+}
+
+iframe{
+    border-radius: 5%;
+}
+
 
 /* MAIN */
 
