@@ -6,7 +6,7 @@ body{
 }
 
 .content{
-    height: 2316px;
+    height: 2339px;
     width: 350px;
     background-image: url(../img/sfondo.png);
     background-position-y: -50%;
@@ -55,7 +55,7 @@ h3{
 
 main{
     display: inline-block;
-    height: 1855px;
+    height: 1876px;
     width: 320px;
     margin: 15px 15px;
     background-color: white;
