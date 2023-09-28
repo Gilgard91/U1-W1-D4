@@ -96,6 +96,7 @@ table{
     
 }
 
+
 caption{
     font-style: italic;
     font-weight: 700;
@@ -107,6 +108,8 @@ th{
     background-color: #3a6acc;
     color: white;
     text-align: bottom;
+    border: 1px solid white;
+
 }
 
 
@@ -114,6 +117,7 @@ tr{
     height: 30px;
     border-top: 1px solid darkgrey;
     border-spacing: 0;
+    border-collapse:separate;
 }
 
 tr:nth-child(odd){
